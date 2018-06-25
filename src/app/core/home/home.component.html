@@ -1,0 +1,6 @@
+<!--<h2 appDataConverter [date]="date" (convertedDate)="onDateClick($event)">Welcome to the Recipe Book {{dateText}} </h2>-->
+
+<h2>Welcome to the Recipe Book</h2>
+<span>Last updated : {{date | amDateFormat:'LL' }}</span>
+<hr>
+<span>Last updated : {{date | amTimeAgo }}</span>
